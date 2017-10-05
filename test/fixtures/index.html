@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf8">
+</head>
+<html>
+<div id="output">
+</div>
+<script>
+function generateRandomValues() {
+	const randomNumbers = new Uint8Array(16);
+	crypto.getRandomValues(randomNumbers);
+	document.getElementById('output').innerHTML = `numbers: <div id='numbers'>${randomNumbers}</div>`;
+}
+generateRandomValues();
+</script>
+</html>
+

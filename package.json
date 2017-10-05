@@ -1,0 +1,16 @@
+{
+  "name": "crypto-getrandombytes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/test.js"
+  },
+  "author": "Shane Tomlinson <stomlinson@mozilla.com> (https://shanetomlinson.com)",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "selenium-webdriver": "^3.5.0",
+    "serve": "^6.2.0"
+  }
+}
