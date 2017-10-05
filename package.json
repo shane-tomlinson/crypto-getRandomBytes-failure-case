@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test/test.js"
+    "test-file": "ACCESS=file node test/test.js",
+    "test-remote": "ACCESS=remote node test/test.js"
   },
   "author": "Shane Tomlinson <stomlinson@mozilla.com> (https://shanetomlinson.com)",
   "license": "MPL-2.0",
